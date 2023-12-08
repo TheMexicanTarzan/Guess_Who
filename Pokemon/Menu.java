@@ -20,7 +20,6 @@ class Menu {
 		String c, chosen2;
 		if (j == 0) {
 			System.out.println(" Who is that Pokemon?");
-			s.nextLine();
 			chosen2 = s.nextLine();
 			if (b.getP().equals(chosen2)) {
 				System.out.println(" You Win!");
